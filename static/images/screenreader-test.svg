@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 350.87 713.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9 {
+        stroke-width: 0px;
+      }
+
+      .cls-10, .cls-11, .cls-12, .cls-13, .cls-14 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10, .cls-11, .cls-13 {
+        stroke-width: 5px;
+      }
+
+      .cls-10, .cls-11, .cls-13, .cls-14 {
+        fill: none;
+        stroke: #a01236;
+        stroke-linecap: round;
+      }
+
+      .cls-2 {
+        opacity: .73;
+      }
+
+      .cls-2, .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-11 {
+        stroke-dasharray: 0 0 10.94 10.94;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-4 {
+        fill: #ededed;
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-12 {
+        fill: #490415;
+        stroke: #490415;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-13 {
+        stroke-dasharray: 0 0 11.16 11.16;
+      }
+
+      .cls-7 {
+        opacity: .61;
+      }
+
+      .cls-14 {
+        stroke-width: 11px;
+      }
+
+      .cls-8 {
+        fill: #e59aaf;
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-4);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="88.39" y1="407.63" x2="18.66" y2="395.89" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a06567"/>
+      <stop offset="1" stop-color="#a0814b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="106.19" y1="327.89" x2="20.78" y2="304.76" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a06567"/>
+      <stop offset=".64" stop-color="#a0814b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="135.34" y1="277.23" x2="62.95" y2="255.08" xlink:href="#linear-gradient"/>
+    <filter id="drop-shadow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="2"/>
+      <feGaussianBlur result="blur" stdDeviation="1"/>
+      <feFlood flood-color="#242460" flood-opacity=".66"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-4" x1="149.53" y1="492.85" x2="347.89" y2="492.85" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="32.16" y1="357.44" x2="192.21" y2="472.6" gradientTransform="translate(0 552.6) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c379b3"/>
+      <stop offset=".55" stop-color="#e59aaf"/>
+      <stop offset="1" stop-color="#a01236"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <rect class="cls-12" x="67.91" y="177.52" width="215.05" height="402.79" rx="4.1" ry="4.1" transform="translate(157.72 -38.27) rotate(22.41)"/>
+    <rect class="cls-8" x="74.19" y="187.05" width="202.49" height="383.74" rx="5.31" ry="5.31" transform="translate(157.72 -38.27) rotate(22.41)"/>
+    <path class="cls-1" d="M40.96,418.55s11.95-20.79,14.04-34.72c0,0-22.4-10.57-26.58,12.43-4.18,22.99,12.54,22.3,12.54,22.3Z"/>
+    <path class="cls-5" d="M73.93,343.26s-27.76-25.86-4.07-42.58c0,0,13.47-7.9,20.44,1.16l-16.37,41.42Z"/>
+    <rect class="cls-2" x="131.79" y="271.09" width="166.15" height="10.95" transform="translate(121.67 -61.03) rotate(22.41)"/>
+    <path class="cls-6" d="M96.43,288.46s-28.42-28.2-6.13-42.14c0,0,7.17-2.46,13.7-1.39,8.39,1.37,8.94,3.25,8.94,3.25l-16.52,40.28Z"/>
+    <g>
+      <polyline class="cls-10" points="276.94 354.31 274.84 359.39 269.75 357.3"/>
+      <line class="cls-11" x1="259.64" y1="353.12" x2="123.14" y2="296.83"/>
+      <polyline class="cls-10" points="118.08 294.74 113 292.65 115.09 287.56"/>
+      <line class="cls-13" x1="119.35" y1="277.25" x2="134.24" y2="241.14"/>
+      <polyline class="cls-10" points="136.37 235.98 138.47 230.89 143.55 232.99"/>
+      <line class="cls-11" x1="153.66" y1="237.16" x2="290.17" y2="293.46"/>
+      <polyline class="cls-10" points="295.22 295.54 300.31 297.64 298.21 302.72"/>
+      <line class="cls-13" x1="293.96" y1="313.04" x2="279.06" y2="349.15"/>
+    </g>
+    <path class="cls-4" d="M340.4,101.99c0,48.72-54.28,89.38-126.47,98.87l-20.96,52.86-26.4-51.24c-80.57-4.82-143.63-47.97-143.63-100.49C22.95,46.23,94.03,1.05,181.67,1.05s158.73,45.18,158.73,100.94Z"/>
+    <path class="cls-9" d="M149.53,586.08s37.75,76.35,25.9,125.13c0,0,118.8,16.72,172.45-42.5,0,0-57.6-153.3-3.25-249.45l-16.96-141.45s-20.96-26.76-40.47,38.05l-1.42,80.47s-81.03,88.51-55.25,131.01l-30.82,70.83c-1.57,3.6-5.69,5.31-9.35,3.89l-40.84-15.96Z"/>
+    <rect class="cls-2" x="126.12" y="280.88" width="126.14" height="10.95" transform="translate(123.46 -50.5) rotate(22.41)"/>
+    <rect class="cls-2" x="117.48" y="305.79" width="166.15" height="10.95" transform="translate(133.82 -52.95) rotate(22.41)"/>
+    <rect class="cls-7" x="95.27" y="344.17" width="127" height="10.95" transform="translate(145.3 -34.13) rotate(22.41)"/>
+    <rect class="cls-7" x="87.04" y="366.86" width="154.71" height="10.95" transform="translate(154.37 -34.55) rotate(22.41)"/>
+    <rect class="cls-7" x="79.48" y="386.34" width="166.15" height="10.95" transform="translate(161.66 -32.38) rotate(22.41)"/>
+    <rect class="cls-7" x="71.05" y="400.89" width="146.82" height="10.95" transform="translate(165.84 -24.38) rotate(22.41)"/>
+    <path class="cls-3" d="M175.97,149.02l-2.47-82.78c-.16-5.19-6.07-8.08-10.26-5.02l-29.2,21.35h-26.76c-5.48,0-9.93,4.44-9.93,9.93v28.88c0,5.48,4.44,9.93,9.93,9.93h28.57l29.72,23.01c4.31,3.34,10.56.15,10.4-5.3Z"/>
+    <path class="cls-14" d="M197.35,87.55c8.86,1.95,15.25,10.09,14.72,19.44s-8.04,16.98-17.27,17.72"/>
+    <path class="cls-14" d="M214.03,72.06c12.05,7.39,19.75,21,18.91,36.1-.93,16.68-12.03,30.38-26.94,35.42"/>
+    <path class="cls-14" d="M229.04,56.97c16.02,11.72,25.96,31.06,24.77,52.36-1.37,24.41-17,44.64-38.35,53.06"/>
+  </g>
+</svg>
