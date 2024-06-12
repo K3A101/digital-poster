@@ -1,0 +1,12 @@
+{
+  "name": "digital-poster",
+  "version": "1.0.0",
+  "description": "Graduation poster about accessibility",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -L server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Keïsha Alexander",
+  "license": "ISC"
+}
