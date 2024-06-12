@@ -1,0 +1,55 @@
+header {
+    display: inline-block;
+    width: 96%;
+    padding: 5rem;
+    background: #A01236;
+    // margin: 0 3rem;
+
+    color: #fff;
+
+    h1 {
+        color: #fff;
+        font-size: 8rem;
+    }
+
+    .line {
+        width: 80%;
+        height: 1rem;
+        background: #d9e54d;
+        position: relative;
+
+        span {
+            display: inline-block;
+            position: absolute;
+                height: 4rem;
+                width: 4rem;
+                border-radius: 50%;
+                background-color: #d9e54d;
+            &.circle-left {
+                top: -1.5rem;
+                left: -1rem;
+            }
+
+            &.circle-right {
+                top: -1.5rem;
+                right: -1rem;
+            }
+        }
+
+        
+    }
+
+
+    .student-info { 
+        display: flex;
+        // justify-content: space-between;
+        gap: 1.6rem;
+        padding: 3rem 0;
+        font-weight: bold;
+
+        li {
+            list-style-type: none;
+            font-size: 2rem;
+        }
+    }
+}

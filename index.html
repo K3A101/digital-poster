@@ -1,19 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tweakers toegankelijk maken voor mensen met een visuele beperking</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/style.css">
+
 </head>
+
 <body>
+    <header>
+        <h1>Tweakers toegankelijk maken voor mensen met een visuele beperking</h1>
+        <div class="line">
+            <span class="circle-left"></span>
+            <span class="circle-right"></span>
+        </div>
+        <ul class="student-info">
+            <li>Keïsha Alexander</li>
+            <li>afstudeerproject</li>
+            <li>CMD</li>
+        </ul>
+    </header>
 
     <main>
-        <figure>
-            <img src="./images/cheatsheet-poster.svg" alt="Poster voor de Tweakers developers">
-        </figure>
-       
+
+        <div class="content-wrapper">
+
+            <article tabindex="0">
+                <figure><img src="./static/images/checklist.svg" alt="WCAG lijst"></figure>
+                <div>
+                    <h2>WCAG</h2>
+                    <p>Gebruik de Web content Accessibility Guidelines als basis.</p>
+                </div>
+            </article>
+
+            <article tabindex="0">
+                <figure><img src="./static/images/html-elements.svg" alt="HTML tags"></figure>
+                <div>
+                    <h2>Semantisch HTML</h2>
+                    <p>Gebruik semantisch HTML voor de juiste type content.</p>
+                </div>
+
+            </article>
+
+            <article tabindex="0">
+                <figure><img src="./static/images/contrast-nl.svg" alt="Kleurcontrast ratio checker"></figure>
+                <div>
+                    <h2>Kleurcontrast checkers </h2>
+                    <p>Gebruik een Color Analyzer om de contrastverhouding tussen tekst en achtergrondkleur te
+                        controleren.
+                    </p>
+                </div>
+
+            </article>
+            <article tabindex="0">
+                <figure><img src="./static/images/html-structure.svg" alt="Pagina wireframe illustratie"></figure>
+                <div>
+                    <h2>Toetsenbord navigatie volgorde </h2>
+                    <p>De navigatievolgorde met het toetsenbord wordt bepaald door de volgorde van de HTML-componenten
+                        binnen de HTML DOM.</p>
+                </div>
+            </article>
+            <article tabindex="0">
+                <figure><img src="./static/images/alt-tekst.svg" alt="Verschillende manier voor alternatieve tekst">
+                </figure>
+                <div>
+                    <h2>Alternatieve tekst</h2>
+                    <p>Alternatieve tekst gebruiken zoals tooltip of verborgen tekst bij niet-tekstuele content
+                        (Afbeeldingen, Iconen, grafieken)</p>   
+                </div>
+                
+            </article>
+            <article tabindex="0">
+                <figure><img src="./static/images/skiplink.svg" alt="Skiplinks illustraties"></figure>
+                <div>
+                    <h2>Skiplinks</h2>
+                    <p>Skiplinks gebruiken om het toetsenbord navigatie te versnellen</p>
+                </div>
+            </article>
+            <article tabindex="0">
+                <figure><img src="./static/images/html-structure.svg" alt="Toetsenbord navigatie volgorde"></figure>
+                <div>
+                    <h2>Toetsenbord toegankelijkheid</h2>
+                    <p>Semantisch HTML-elementen gebruiken om interactieve componenten toetsenbord toegankelijk te
+                        maken.
+                    </p>
+                </div>
+            </article>
+            <article tabindex="0">
+                <figure><img src="./static/images/focus.svg" alt=""></figure>
+                <div>
+                    <h2>Duidelijk toetsenbord focus</h2>
+                    <p>Zorg voor een duidelijk toetsenbord en screenreader focus indicatie zowel op mobiel en laptop.
+                    </p>
+
+                    <p>Gebruik geen hover om een functionaliteit te verbergen!</p>
+                </div>
+
+            </article>
+            <article tabindex="0">
+                <figure><img src="./static/images/test-with-user.svg" alt="Illustratie met Keisha en de Gebruikers">
+                </figure>
+                <div>
+                    <h2>Testen met gebruikers</h2>
+                    <p>Test functionaliteiten met gebruikers met een visuele beperking.
+                    </p>
+                </div>
+            </article>
+            <article tabindex="0">
+                <figure><img src="./static/images/screenreader-test.svg" alt="Werken met een screenreader">
+                </figure>
+                <div>
+                    <h2>Testen met digitale hulpmiddelen</h2>
+                    <p>
+                        Test functionaliteiten continu met screenreaders, toetsenbord en automated test tools.
+                    </p>
+                </div>
+            </article>
+
+        </div>
+
+
     </main>
-    
+
 </body>
+
 </html>
