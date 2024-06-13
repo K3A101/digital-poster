@@ -1,8 +1,9 @@
 header {
     display: inline-block;
-    width: 96%;
+    width: 100%;
     padding: 5rem;
     background: #A01236;
+    box-shadow: 2rem 2rem 20rem 0 #de6d89;
     // margin: 0 3rem;
 
     color: #fff;
@@ -17,6 +18,7 @@ header {
         height: 1rem;
         background: #d9e54d;
         position: relative;
+        margin: 2rem 0;
 
         span {
             display: inline-block;
@@ -42,7 +44,7 @@ header {
 
     .student-info { 
         display: flex;
-        // justify-content: space-between;
+        flex-wrap: wrap;
         gap: 1.6rem;
         padding: 3rem 0;
         font-weight: bold;

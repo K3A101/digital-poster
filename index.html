@@ -8,9 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
-        rel="stylesheet">
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet">
     <link rel="stylesheet" href="/static/css/style.css">
+    
+    <script src="https://kit.fontawesome.com/c37b867389.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -25,68 +27,113 @@
             <li>Keïsha Alexander</li>
             <li>afstudeerproject</li>
             <li>CMD</li>
+            <li>Hogeschool van Amsterdam</li>
         </ul>
     </header>
 
     <main>
 
         <div class="content-wrapper">
+            <img  class="swirly-line" src="./static/images/swirly-line.svg" alt="">
+            <section class="row">
+                    <article tabindex="0">
+                        <figure><img src="./static/images/checklist.svg" alt="WCAG lijst"></figure>
+                        <div class="content">
+                            <div>
+                                <h2>WCAG</h2>
+                                <p>Gebruik de Web content Accessibility Guidelines als basis.</p>
+                                <a class="button" href="https://wcag.nl/kennis/richtlijnen/wcag-2-1-richtlijnen/">Bekijk succescriterias's</a>
+                            </div>
+                        </div>
+                    </article>
+                    
+                    <article tabindex="0">
+                        <figure><img src="./static/images/html-elements.svg" alt="HTML tags"></figure>
+                        <div class="content">
+                            <h2>Semantisch HTML</h2>
+                            <p>Gebruik semantisch HTML voor de juiste type content.</p>
+                            <div class="criteria">
+                               
+                                <a class="button" href="https://wcag.nl/kennis/richtlijnen/wcag-2-1-richtlijnen/#robuust:~:text=inbegrip%20van%20hulptechnologie%C3%ABn.-,4.1.1%20Parsen,-Niveau%20A">
+                                    <i class="fa-solid fa-square-check" ></i>
+                                    <span>4.1.1 Parsen -
+                                    Niveau A</span>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
 
-            <article tabindex="0">
-                <figure><img src="./static/images/checklist.svg" alt="WCAG lijst"></figure>
-                <div>
-                    <h2>WCAG</h2>
-                    <p>Gebruik de Web content Accessibility Guidelines als basis.</p>
-                </div>
-            </article>
+            </section>
 
-            <article tabindex="0">
-                <figure><img src="./static/images/html-elements.svg" alt="HTML tags"></figure>
-                <div>
-                    <h2>Semantisch HTML</h2>
-                    <p>Gebruik semantisch HTML voor de juiste type content.</p>
-                </div>
-
-            </article>
-
-            <article tabindex="0">
-                <figure><img src="./static/images/contrast-nl.svg" alt="Kleurcontrast ratio checker"></figure>
-                <div>
-                    <h2>Kleurcontrast checkers </h2>
-                    <p>Gebruik een Color Analyzer om de contrastverhouding tussen tekst en achtergrondkleur te
-                        controleren.
-                    </p>
-                </div>
-
-            </article>
-            <article tabindex="0">
-                <figure><img src="./static/images/html-structure.svg" alt="Pagina wireframe illustratie"></figure>
-                <div>
-                    <h2>Toetsenbord navigatie volgorde </h2>
-                    <p>De navigatievolgorde met het toetsenbord wordt bepaald door de volgorde van de HTML-componenten
-                        binnen de HTML DOM.</p>
-                </div>
-            </article>
-            <article tabindex="0">
-                <figure><img src="./static/images/alt-tekst.svg" alt="Verschillende manier voor alternatieve tekst">
-                </figure>
-                <div>
-                    <h2>Alternatieve tekst</h2>
-                    <p>Alternatieve tekst gebruiken zoals tooltip of verborgen tekst bij niet-tekstuele content
-                        (Afbeeldingen, Iconen, grafieken)</p>   
-                </div>
+       <section class="row">
+                <article tabindex="0">
+                    <figure><img src="./static/images/contrast-nl.svg" alt="Kleurcontrast ratio checker"></figure>
+                    <div class="content">
+                        <h2>Kleurcontrast checkers </h2>
+                        <p>Gebruik een Color Analyzer om de contrastverhouding tussen tekst en achtergrondkleur te
+                            controleren.
+                        </p>
+                        <div class="criteria">
+                        
+                            <a class="button"
+                                href="https://wcag.nl/kennis/richtlijnen/wcag-2-1-richtlijnen/#robuust:~:text=1.4.3%20Contrast%20(minimum,Niveau%20AA">
+                                <i class="fa-solid fa-square-check"></i>
+                                <span>1.4.3 Contrast (minimum)
+                                - Niveau AA</span>
+                            </a>
+                        </div>
+                    </div>
                 
-            </article>
+                </article>
+                <article tabindex="0">
+                    <figure><img src="./static/images/html-structure.svg" alt="Pagina wireframe illustratie"></figure>
+                    <div class="content">
+                        <h2>Toetsenbord navigatie volgorde </h2>
+                        <p>De navigatievolgorde met het toetsenbord wordt bepaald door de volgorde van de HTML-componenten
+                            binnen de HTML DOM.</p>
+                            <div class="criteria">
+                            
+                                <a class="button"
+                                    href="https://wcag.nl/kennis/richtlijnen/wcag-2-1-richtlijnen/#robuust:~:text=1.3.2%20Betekenisvolle%20volgorde,Niveau%20A">
+                                    <i class="fa-solid fa-square-check"></i>
+                                    <span>1.3.2 Betekenisvolle volgorde -
+                                    Niveau A</span>
+                                </a>
+                            </div>
+                    </div>
+                </article>
+
+       </section>
+       <section class="row">
+        <article tabindex="0">
+            <figure><img src="./static/images/alt-tekst.svg" alt="Verschillende manier voor alternatieve tekst">
+            </figure>
+            <div class="content">
+                <h2>Alternatieve tekst</h2>
+                <p>Alternatieve tekst gebruiken zoals tooltip of verborgen tekst bij niet-tekstuele content
+                    (Afbeeldingen, Iconen, grafieken)</p>
+                    <div class="criteria">
+                        <a class="button" href="https://wcag.nl/kennis/richtlijnen/wcag-2-1-richtlijnen/#robuust:~:text=1.1.1%20Niet%2Dtekstuele,Niveau%20A">
+                            <i class="fa-solid fa-square-check"></i>
+                            <span>1.1.1 Niet-tekstuele content
+                            Niveau A</span>
+                        </a>
+                    </div>
+            </div>
+        
+        </article>
+        <article tabindex="0">
+            <figure><img src="./static/images/skiplink.svg" alt="Skiplinks illustraties"></figure>
+            <div class="content">
+                <h2>Skiplinks</h2>
+                <p>Skiplinks gebruiken om het toetsenbord navigatie te versnellen</p>
+            </div>
+        </article>
+       </section>
+        <section class="row">
             <article tabindex="0">
-                <figure><img src="./static/images/skiplink.svg" alt="Skiplinks illustraties"></figure>
-                <div>
-                    <h2>Skiplinks</h2>
-                    <p>Skiplinks gebruiken om het toetsenbord navigatie te versnellen</p>
-                </div>
-            </article>
-            <article tabindex="0">
-                <figure><img src="./static/images/html-structure.svg" alt="Toetsenbord navigatie volgorde"></figure>
-                <div>
+                <figure><img src="./static/images/html.svg" alt="Toetsenbord navigatie volgorde"></figure>
+                <div class="content">
                     <h2>Toetsenbord toegankelijkheid</h2>
                     <p>Semantisch HTML-elementen gebruiken om interactieve componenten toetsenbord toegankelijk te
                         maken.
@@ -94,20 +141,21 @@
                 </div>
             </article>
             <article tabindex="0">
-                <figure><img src="./static/images/focus.svg" alt=""></figure>
-                <div>
+                <figure><img class="focus-illustration" src="./static/images/focus.svg" alt=""></figure>
+                <div class="content">
                     <h2>Duidelijk toetsenbord focus</h2>
                     <p>Zorg voor een duidelijk toetsenbord en screenreader focus indicatie zowel op mobiel en laptop.
                     </p>
-
+                    <br>
                     <p>Gebruik geen hover om een functionaliteit te verbergen!</p>
                 </div>
-
             </article>
+        </section>
+        <section class="row">
             <article tabindex="0">
                 <figure><img src="./static/images/test-with-user.svg" alt="Illustratie met Keisha en de Gebruikers">
                 </figure>
-                <div>
+                <div class="content">
                     <h2>Testen met gebruikers</h2>
                     <p>Test functionaliteiten met gebruikers met een visuele beperking.
                     </p>
@@ -116,19 +164,27 @@
             <article tabindex="0">
                 <figure><img src="./static/images/screenreader-test.svg" alt="Werken met een screenreader">
                 </figure>
-                <div>
+                <div class="content">
                     <h2>Testen met digitale hulpmiddelen</h2>
                     <p>
                         Test functionaliteiten continu met screenreaders, toetsenbord en automated test tools.
                     </p>
                 </div>
             </article>
+        </section>
+           
 
         </div>
 
 
     </main>
-
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+    <script src="./static/js/main.js" type="module"></script>
+   
 </body>
 
 </html>
