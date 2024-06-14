@@ -1,4 +1,4 @@
-*:focus {
+*:focus, *:focus-visible {
     outline: .5rem dashed #490415;
     background-color: #fff0f4;
 
@@ -12,6 +12,10 @@
         i {
                 color: white;
             }
+    }
+
+    .tooltip {
+        display: block;
     }
 
  

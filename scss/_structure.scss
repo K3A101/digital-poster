@@ -5,7 +5,7 @@ html {
 
 
 body {
-    scroll-padding: 6rem;
+    scroll-padding: 20rem;
     background: #FAD1DB;
     display: grid;
     place-items: center;
@@ -122,8 +122,32 @@ img {
         }
 
     }
+}
 
+.tooltip {
+    top: -11rem;
+    font-weight: 700;
+    position: absolute;
+    background: #A01236;
+    color: #ffffff;
+    font-size: 3rem;
+    transform: translatex(16rem);
+    text-transform: uppercase;
+    padding: 1.6rem;
+    min-width: 23rem;
+    text-align: center;
+    display: none;
 
+    &::after {
+        content: "";
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+
+        border-top: 20px solid #A01236;
+        position: absolute;
+        bottom: -2rem;
+        transform: translateX(-50px);
+    }
 }
 
 #footer {
