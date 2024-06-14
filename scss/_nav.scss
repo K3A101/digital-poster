@@ -8,6 +8,18 @@ header {
 
     color: #fff;
 
+    .title {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        // align-items: center;
+    } 
+
+    .logo {
+        width: 10rem;
+        height: 10rem;
+    }
+
     h1 {
         color: #fff;
         font-size: 8rem;

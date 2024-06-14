@@ -159,6 +159,7 @@ img {
     transform: translatey(-7rem);
     transition: transform .2s ease-in-out;
     &:focus-within {
+        text-decoration: underline;
         transform: translatey(0);
     }
 }
