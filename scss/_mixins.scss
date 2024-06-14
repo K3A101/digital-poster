@@ -1,0 +1,30 @@
+@mixin margin-bottom{
+    margin-bottom: 2rem;
+}
+
+.margin-bottom {
+    margin-bottom: 14rem;
+    
+}
+
+.translate-up {
+    transform: translateY(-5rem);
+}
+.translate-down {
+    transform: translateY(5rem);
+}
+
+@media (max-width:60rem) {
+
+    .margin-bottom {
+            margin-bottom: 0;
+    
+        }
+ .translate-up {
+     transform: translateY(0);
+ }
+
+ .translate-down {
+     transform: translateY(0);
+ }
+}
