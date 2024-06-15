@@ -15,12 +15,15 @@ body {
     max-width: 1200px;
 
 
+    .box-shadow {
+        box-shadow: 2rem 2rem 20rem 0 #de6d89;
+    }
 
     .content-wrapper {
         background: #ffffff;
         padding: 2rem;
         position: relative;
-        box-shadow: 2rem 6.2rem 20rem 0 #de6d89;
+       
 
         .row {
             display: flex;
