@@ -26,8 +26,8 @@ header {
     }
 
     .line {
-        width: 80%;
-        height: 1rem;
+        width: 100%;
+        height: .5rem;
         background: #d9e54d;
         position: relative;
         margin: 2rem 0;
@@ -35,17 +35,17 @@ header {
         span {
             display: inline-block;
             position: absolute;
-                height: 4rem;
-                width: 4rem;
+                height: 2rem;
+                width: 2rem;
                 border-radius: 50%;
                 background-color: #d9e54d;
             &.circle-left {
-                top: -1.5rem;
+                top: -.8rem;
                 left: -1rem;
             }
 
             &.circle-right {
-                top: -1.5rem;
+                top: -.8rem;
                 right: -1rem;
             }
         }
