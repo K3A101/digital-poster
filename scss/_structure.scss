@@ -180,6 +180,18 @@ img {
     clip-path: inset(50%);
 }
 
+
+.html-code {
+    opacity: 0;
+    background: #ffa2b9;
+    padding: .5rem;
+    border-radius: .2rem;
+    font-size: 1.6rem;
+    position: absolute;
+    bottom: 1rem;
+    right: 2rem;
+}
+
 #footer {
     left: 0;
     bottom: 0;
